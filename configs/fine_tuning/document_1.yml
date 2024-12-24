@@ -1,0 +1,13 @@
+Train:
+  dataset:
+    name: SimpleDataSet
+    data_dir: data/fine_tuning/document_1/train_images
+    label_file_list: ["data/fine_tuning/document_1/train_labels.txt"]
+Eval:
+  dataset:
+    name: SimpleDataSet
+    data_dir: data/fine_tuning/document_1/val_images
+    label_file_list: ["data/fine_tuning/document_1/val_labels.txt"]
+
+Global:
+  save_model_dir: ./models/document_1_model
